@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './chat.component.css'
 })
 export class ChatComponent {
+  showHide: boolean = false;
+  show_hide() {
+    this.showHide = !this.showHide;
+    console.log(this.showHide);
 
+  }
 }

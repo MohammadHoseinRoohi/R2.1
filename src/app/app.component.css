@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.chat{
+    background-color: #4e4e4e;
+    width: 36%;
+}
+.chatroom{
+    background-color: #4e4e4e;
+    border: 0.1px solid white;
+    width: 64%;
+}
