@@ -1,0 +1,10 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.menuIcone{
+    width: 3vw;
+    height: 0.3vh;
+    background-color: black;
+    margin: 0.2em 0;
+}
