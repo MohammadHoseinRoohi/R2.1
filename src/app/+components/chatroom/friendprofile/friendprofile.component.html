@@ -1,0 +1,15 @@
+<div class="box">
+    <button (click)="profile()" [class.hidden]="!openprofile" class="prof2">         
+    </button>
+    <div class="name1" [class.hidden]="!openprofile">{{name}}</div>
+</div>
+<!-- <app-pvroom [class.visible]="!openchat"/> -->
+
+<div class="border" [class.hidden]="openprofile" >      
+    <button class="prof" (click)="profile()">←</button>   
+    <div class="img"><img src="/images/img1.jpg" alt=""></div>
+    <!-- <button class=" newchat" (click)="newchat()">←</button>    -->
+
+    <div class="name">name: sahel rahimof</div>
+    <div class="bio">bio: 👩‍💻</div>
+</div>

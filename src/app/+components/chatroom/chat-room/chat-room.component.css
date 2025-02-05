@@ -1,0 +1,12 @@
+.pvroom{
+    height: 100vh;
+    margin: 0;
+    border: 0.1em solid black;
+    background-color: rgb(135, 131, 193);
+    margin-left: 50%;
+}
+.profile
+{
+    background-color: rgb(232, 188, 236);
+
+}

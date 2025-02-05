@@ -1,0 +1,15 @@
+:host{
+    width: 20%;
+}
+
+div.row{
+    border: 0.2em solid rgb(161, 161, 161);
+    height: 4vh;
+    width: 3vw;
+}
+div{
+    display: flex;
+}
+button{ 
+    display: flex;
+}

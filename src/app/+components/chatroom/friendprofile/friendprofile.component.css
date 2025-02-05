@@ -1,0 +1,118 @@
+.hidden {
+    display: none;
+}
+
+.prof {
+    position: absolute;
+    margin: 1em;
+    height: 7vh;
+    width: 3.5vw;
+    border: 0.1em solid rgb(0, 0, 0);
+    border-radius: 77%;
+    /* background-image: url(/images/img1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prof2 {
+    margin: 1em;
+    height: 7vh;
+    width: 3vw;
+    border: 0.1em solid rgb(18, 18, 18);
+    border-radius: 77%;
+    background-image: url(/images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+    /* align-items: center; */
+    /* text-align: justify; */
+
+    position: absolute;
+    background-color: black;
+    backdrop-filter: blur(80px);
+    margin-top: 2%;
+    margin-left: 35%;
+    border-radius: 2em;
+    width: 35vw;
+    height: 90vh;
+    /* background-color: rgb(255, 255, 255); */
+    /* margin-left: 25%;
+    margin-right: 25%; */
+
+}
+.newchat{
+    position: absolute;
+    margin: 0.1em;
+    height: 7vh;
+    width: 3.5vw;
+    border: 0.1em solid rgb(0, 0, 0);
+    border-radius: 77%;
+    /* background-image: url(/images/img1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    /* border: 0.1em solid black; */
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+
+    width: 35vw;
+    height: 39vh;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+    border: 0.1em solid black;
+    padding: 1em;
+    border: 0.1em solid white
+    /* color(srgb red green blue) */
+
+}
+
+.bio {
+    border: 0.1em solid black;
+    padding: 1em;
+    border: 0.1em solid white;
+    color: rgb(255, 255, 255);
+    
+}
+
+.pv {
+    margin: 0;
+    ;
+    border: 0.1em solid black;
+    justify-content: center;
+    background-color: rgb(232, 188, 236);
+    margin-left: 50%;
+}
+
+.friend {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    z-index: 100;
+}
+
+.box {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    border: 0.1em solid black;
+    background-color: rgb(4, 4, 4);
+    margin-left: 50%;
+}
+
+.name1 {
+    margin-top: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+.visible{
+    display:initial;
+}
