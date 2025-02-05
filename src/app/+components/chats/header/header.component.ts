@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  showHide: boolean = false;
+  show_hide() {
+    this.showHide = !this.showHide;
+    console.log(this.showHide);
 
+  }
 }

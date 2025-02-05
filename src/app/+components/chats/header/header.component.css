@@ -1,10 +1,21 @@
 .main{
     display: flex;
     justify-content: space-between;
+    
+}
+.menu{
+    margin: 0.1em;
 }
 .menuIcone{
-    width: 3vw;
-    height: 0.3vh;
+    width: 2vw;
+    height: 0.1em;
     background-color: black;
     margin: 0.2em 0;
+}
+.searchIcone img{
+    width: 1.3vw;
+    margin: 0.2em;
+}
+.mobile-container{
+    position: absolute;
 }
